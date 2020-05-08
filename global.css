@@ -1,0 +1,159 @@
+.padding {
+
+    margin-top: 2%;
+    font-weight: 600;
+    background-color: #FFFFFF;
+}
+
+* {
+   background-color: #FFFFFF;
+   font-weight: 400;
+   color: black;
+}
+
+.sub-menu {
+
+    font-weight: 400;
+    pointer-events: visible;
+    text-decoration: none;
+}
+
+.sub-menu:active{
+    border-bottom:1px solid #000 ;
+    text-decoration: none;
+}
+
+.sub-menu:hover{
+    opacity: 0.5 #000;
+    text-decoration: none;
+}
+
+.color {
+    background-color: #e51d55;
+    color: #FFFFFF;    
+    border: none;
+}
+
+
+.tamanho {
+    font-size: 11px;
+    font-weight: 500;
+    margin-top: 35px;
+    
+}
+
+.descricao {
+    
+    color: gray; 
+    height: 60%;
+}
+
+
+.descricao::placeholder{
+    font-weight: 300;
+     position:fixed;
+     
+ 
+       
+}
+
+
+.form-control:focus { /* Edge */
+    outline: none;
+    
+  }
+  
+
+.descricao:hover{
+    border: 1px solid gray;
+}
+
+
+
+.meio {
+    
+    background-color: #FFFFFF;  
+}
+
+.botao {
+
+    background-color: #e51d55;
+    color: #FFFFFF; 
+    border: none;
+   
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+     
+}
+
+.teste {
+    position: absolute;
+    height: 20%;
+    width: 30%;
+     
+}
+
+.titulo {
+    font-size: 50px;
+    font-weight: 400;
+    color: #e51d55;
+}
+
+
+.form-c{
+
+    padding-left:50px;
+    padding-top: 5%;
+    padding-bottom: 6%;
+    padding-right: 148px;
+    font-weight: 400;
+    margin-top: 30px;
+
+}
+
+.form-ip{
+    position: absolute;
+    margin-left:50px;
+       
+}
+
+.test1 {
+    
+    margin-left: 10px;
+    
+}
+
+.tamanho2{
+    font-size: 11px;
+    font-weight: 500;
+}
+
+.teste3{
+    margin-top: 30px;
+    height: 100%;
+    width:115px;
+    justify-content: center;
+    text-align: center;
+
+    border: 8px solid #FFF;
+}
+
+a {
+   text-decoration:none; 
+   color: black;
+}
+
+a:hover{
+    color: gray;
+}
+
+.outroMenu{
+
+}
+
+.outroMenu:hover{
+    color: #000;
+    
+}
